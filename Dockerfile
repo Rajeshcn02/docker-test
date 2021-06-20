@@ -1,7 +1,5 @@
 #This is a sample Image 
 FROM ubuntu 
-MAINTAINER demousr@gmail.com 
+MAINTAINER rajeshcn094@gmail.com 
 
-RUN apt-get update 
-RUN apt-get install –y nginx 
-CMD [“echo”,”Image created”] 
+CMD [“echo”,”Welcome to docker image”] 
